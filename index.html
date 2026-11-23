@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Git &amp; GitHub lernen – E-Learning für die Schule</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="menu-toggle" class="menu-toggle" aria-label="Menü öffnen">☰</button>
+    <a href="#/" class="brand">🐙 Git &amp; GitHub lernen</a>
+    <div class="progress-wrap" title="Lernfortschritt">
+      <div class="progress-bar"><div id="progress-fill" class="progress-fill"></div></div>
+      <span id="progress-text">0 %</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav id="sidebar" class="sidebar" aria-label="Kapitel"></nav>
+    <main id="content" class="content" tabindex="-1"></main>
+  </div>
+
+  <footer class="footer">
+    Schulprojekt · E-Learning Git &amp; GitHub ·
+    <button id="reset-progress" class="link-button">Fortschritt zurücksetzen</button>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
